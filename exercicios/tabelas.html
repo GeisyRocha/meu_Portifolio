@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang ="pt-br">
+    <head>
+        <title>Tabelas em HTML</title>
+        <meta charset="utf-8">
+        <meta name="descricao" content="Tabelas">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Exemplo de Tabela</h1>
+
+        <table border="5">
+            <!--linhas row-->
+            <tr>
+                <!--colunas-->
+                <th>Amanda </th>
+                <th>Ariana</th>
+                <th>Geisiane</th>
+            </tr>
+            <tr>
+              
+                 <td>Mariana </td>
+                 <td>Josiane</td>
+                 <td>Jaqueline</td> 
+            </tr>
+            <tr>
+                
+                <td>Karolaine </td>
+                <td>Melina</td>
+                <td>Ravina</td> 
+           </tr>
+        </table>
+
+        <h1>Exemplo de tabelas</h1>
+        <table border="2">
+            <tr>
+                <th>Idade:</th>
+                <td>22</td>
+            </tr>
+            <tr>
+                <th>Signo:</th>
+                <td>Sagitário</td>
+            </tr>
+        </table>
+
+        <h1>Tabela Semântica</h1>
+        <table border="3">
+            <thead>
+                <tr>
+                    <th>Titulo 1</th>
+                    <th>Titulo 2</th>
+                    <th>Titulo 3</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Coluna 1</td>
+                    <td>Coluna 2</td>
+                    <td>Coluna 3</td>
+                </tr>
+                <tr>
+                    <td>Coluna 1</td>
+                    <td>Coluna 2</td>
+                    <td>Coluna 3</td>
+                </tr>
+                <tr>
+                    <td>Coluna 1</td>
+                    <td>Coluna 2</td>
+                    <td>Coluna 3</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Tabela com coluna vazia</h1>
+        <table border="3">
+            <thead>
+                <tr>
+                    <th>Titulo 1</th>
+                    <th>Titulo 2</th>
+                    <th>Titulo 3</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>Coluna 2</td>
+                    <td>Coluna 3</td>
+                </tr>
+                <tr>
+                    <td>Coluna 1</td>
+                    <td></td>
+                    <td>Coluna 3</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        <h1>Mesclando células/colunas</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                   <th>Nome</th>
+                   <th colspan="2">Telefones</th>
+            </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Aline</td>
+                    <td>88888-88888</td>
+                    <TD>999999-9999</TD>
+                </tr>
+                <tr>
+                    <td>Bruno</td>
+                    <td>88888-88888</td>
+                    <TD>99999-99999</TD>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1>Mesclando linhas</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                   <th> Primeiro Nome</th>
+                   <th >Amanda</th>
+            </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td rowspan="2" >Telefones</td>
+                    <td>88888-88888</td>
+                    <td>9999-9999</td>
+                    
+                </tr>
+                
+            </tbody>
+        </table>
+
+
+
+    </body>
+</html>
